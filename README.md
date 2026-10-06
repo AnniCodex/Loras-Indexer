@@ -9,6 +9,13 @@
 
 > **v1.0 by AnniCodex**
 
+### Quick start and recommended settings
+1) Copy Loras_Indexer.py and Loras_Indexer.config.example inside your lora folder, rename Loras_Indexer.config.example to Loras_Indexer.config.
+2) Open Loras_Indexer.config inside your favorite text editor and I recommend you set "save_previews": true, this will save previews locally so that the html gallery will work completely offline without downloading images everytime. You can leave the other settings as they are.
+3) If you have all your loras in the current folder just double click Loras_Indexer and enjoy, if you have subfolders like lora\minimas, lora\zit etc you can open a command prompt inside lora\ and run Loras_Indexer.py -propagate.
+
+Read below for detailed infos about each feature.
+
 ## ✨ Features
 
 - 🔍 **Automatic model detection** using Civitai API, filename patterns, internal safetensors metadata, and folder names
