@@ -1,0 +1,8 @@
+{
+  "nsfw": true,
+  "rows": 3,
+  "save_previews": false,
+  "refresh": "ask",
+  "clean_previews": false,
+  "use_firefox_cookies": false
+}
